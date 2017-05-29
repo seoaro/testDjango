@@ -1,0 +1,25 @@
+### Django ###
+*.log
+*.pot
+*.pyc
+*.ipynb
+
+db.sqlite3
+.well-known/
+__pycache__/
+local_settings.py
+peraswipe/migrations/
+
+result#1.txt
+result#2.txt
+result#3.txt
+result#4.txt
+
+.DS_Store
+.idea
+.ipynb_checkpoints
+
+# Elastic Beanstalk Files
+.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
