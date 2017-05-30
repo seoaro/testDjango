@@ -17,7 +17,7 @@ urlpatterns = [
     url(r'^list4/$', views.excel_download),
 
     url(r'^cbv/list1/$', views_cbv.PostListView1),
-    url(r'^cbv/list2/$', views_cbv.PostListView2),
-    url(r'^cbv/list3/$', views_cbv.PostListView3),
-    url(r'^cbv/list4/$', views_cbv.Excel_download),
+    #url(r'^cbv/list2/$', views_cbv.PostListView2),
+    #url(r'^cbv/list3/$', views_cbv.PostListView3),
+    #url(r'^cbv/list4/$', views_cbv.Excel_download),
 ]

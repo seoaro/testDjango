@@ -20,7 +20,7 @@ class PostListView1(View):
 
 post_list1 = PostListView1.as_view()
 
-
+'''
 class PostListView2(TemplateView):
 #'CBV: 템플릿을 통해 HTML형식 응답하기' 
     template_name = 'myapp/post_list.html'
@@ -51,3 +51,4 @@ class ExcelDownloadView(View): #'CBV: 엑셀 다운로드 응답하기'
             response = HttpResponse(f, content_type='application/vnd.ms-excel') # 필요한 응답헤더 세팅
             response['Content-Disposition'] = 'attachment; filename="{}"'.format(filename)
             return response
+'''
