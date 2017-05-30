@@ -11,3 +11,6 @@ def mysum(request, numbers):
     #result = sum(map(int, numbers.split("/")))
     result = sum(map(lambda s: int(s or 0), numbers.split("/")))
     return HttpResponse(result)
+
+def hello(request, name, age):
+    return HttpResponse('Hi, {}. {} years old.'.format(name, age))
